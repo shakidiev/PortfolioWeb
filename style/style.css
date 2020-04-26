@@ -1,0 +1,219 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* start navigation */
+
+.header-area .main-menu .navbar {
+  padding: 1rem 15rem;
+}
+
+.header-area .main-menu .nav-item .nav-link {
+  font-family: "Roboto", cursive;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 1.7rem;
+  color: black;
+  font-size: 14px;
+}
+
+.header-area .main-menu .navbar-nav .active a {
+  background: rgb(131, 50, 185);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header-area .main-menu .navbar-nav a:hover {
+  background: rgb(131, 50, 185);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.img-fluid {
+  box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+/* ===== start banner area ======  */
+
+.site-main .site-banner .site-title h3 {
+  padding-top: 40%;
+  font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after {
+  content: "";
+  height: 2px;
+  width: 18vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1 {
+  font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4 {
+  font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img {
+  width: 90rem;
+}
+
+button {
+  padding: 0.7rem 2.2rem;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  border: 3px solid transparent;
+  border-radius: 4px;
+  background: silver;
+}
+
+.btn-button.primacy-button {
+  background: rgb(131, 50, 185);
+  background-clip: padding-box;
+  color: whitesmoke;
+  transition: background 0.6s ease;
+  box-shadow: rgba(5, 5, 5, 15.2);
+  outline: none;
+}
+
+.btn-button.primacy-button:hover {
+  background: whitesmoke;
+  background-clip: padding-box;
+  color: black;
+}
+
+.btn-button.primacy-button::after,
+.secondary-button::after {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  bottom: -2px;
+  right: -2px;
+  background: rgb(131, 50, 185);
+  content: "";
+  z-index: -1;
+  border-radius: 4px;
+}
+
+.btn-button.secondary-button {
+  background: white;
+  background-clip: padding-box;
+  transition: background 0.6s ease;
+  outline: none;
+}
+
+.btn-button.secondary-button:hover {
+  background: rgb(131, 50, 185);
+  color: whitesmoke;
+  box-shadow: rgba(5, 5, 5, 15.2);
+}
+
+/* =============== end banner area =========== */
+
+/* =========== start about area =========== */
+
+.site-main .about-area {
+  padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span {
+  display: block;
+  letter-spacing: 21px;
+}
+
+.about-title {
+  padding-left: 10%;
+}
+
+.site-main .about-area .about-title .paragraph p {
+  padding: 0.4rem 0;
+}
+
+/* ============== end about area ================= */
+
+/* ================== start brand area ============ */
+
+.site-main .brand-area {
+  padding: 1rem 10rem;
+  margin-bottom: 4rem;
+}
+
+.site-main .brand-area .first-row .col-lg-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand {
+  border: 1px solid rgb(224, 224, 224);
+  text-align: center;
+  padding: 1.8rem 0rem;
+  margin: 0.9rem 0;
+  width: 180px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand > img {
+  width: 50%;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover {
+  box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.1);
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand > img {
+  filter: brightness(0.15);
+}
+
+.site-main .brand-area .experience-area {
+  padding-left: 1rem;
+}
+
+.site-main .brand-area .experience-area span {
+  display: block;
+}
+.site-main .brand-area .experience-area .years-area {
+  background: url(../img/bg.png) no-repeat 45px 20px;
+  padding: 2rem 0;
+  width: 40rem;
+  height: 18rem;
+  padding-left: 8rem;
+  position: relative;
+}
+
+.site-main .brand-area .experience-area .bg-panel {
+  position: absolute;
+  left: -190px;
+  top: 0%;
+  background: #e029290a;
+  width: 400px;
+  height: 400px;
+  margin-left: 340px;
+  z-index: -1;
+}
+
+.site-main .brand-area .experience-area .years-area .years {
+  color: rgb(131, 50, 185);
+  z-index: 2;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.site-main .brand-area .experience-area .years-area h2 > span {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.site-main .brand-area .experience-area .call-area {
+  padding-left: 10rem;
+}
